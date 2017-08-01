@@ -35,7 +35,6 @@ class App extends Component {
           headerName: "Price",
           field: "price",
           enableRowGroup: true,
-          headerComponentFramework: HeaderCellRenderer,
         },
       ],
     }
@@ -43,6 +42,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div style={{padding: '15px'}}>
+          Bug description: The Make and Model columns use custom header components (copied from the&nbsp;
+          <a href="https://github.com/ceolter/ag-grid-react-example/blob/master/src/richGridExample/SortableHeaderComponent.jsx">react example</a>).
+          The Price column is not a custom header component. On a touch device (tested on iPad) I can drag Price to the row grouping panel, but I
+          can't drag Make and Model without the drag getting stuck once my drag enters the row grouping element. I don't have this issue on
+          desktop though.
+          </div>
         <Grid
           rows={DATA}
           rowGroupPanelShow="always"
