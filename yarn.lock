@@ -51,13 +51,17 @@ address@1.0.2, address@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/address/-/address-1.0.2.tgz#480081e82b587ba319459fef512f516fe03d58af"
 
-ag-grid-react@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/ag-grid-react/-/ag-grid-react-11.0.0.tgz#a6b4707f1ae0bfb0027e941f7ef225edd6ae2dd3"
+ag-grid-enterprise@^12.0.2:
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/ag-grid-enterprise/-/ag-grid-enterprise-12.0.2.tgz#8d0c138d85d808386aabd08ac48aebe314c1b8d5"
 
-ag-grid@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-11.0.0.tgz#842817ddee1c19f0efff3edd46463e521058fe14"
+ag-grid-react@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-react/-/ag-grid-react-12.0.0.tgz#69f1fe5e96770b388b0da030392a88ed5e3c4b41"
+
+ag-grid@^12.0.2:
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-12.0.2.tgz#93a4d2a34bdc96728f4242361f3e2f10dbcba5ad"
 
 ajv-keywords@^1.0.0, ajv-keywords@^1.1.1:
   version "1.5.1"

@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ag-grid": "^11.0.0",
-    "ag-grid-react": "^11.0.0",
+    "ag-grid": "^12.0.2",
+    "ag-grid-enterprise": "^12.0.2",
+    "ag-grid-react": "^12.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10"
