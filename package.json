@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ag-grid": "^12.0.2",
-    "ag-grid-enterprise": "^12.0.2",
-    "ag-grid-react": "^12.0.0",
+    "ag-grid": "^15.0.0",
+    "ag-grid-enterprise": "^15.0.0",
+    "ag-grid-react": "^15.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-dom-factories": "^1.0.2",
     "react-scripts": "1.0.10"
   },
   "scripts": {
@@ -15,9 +16,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "eslint-plugin-jsx-a11y": "5",
-    "eslint-plugin-react-app": "^1.0.2"
   }
 }
